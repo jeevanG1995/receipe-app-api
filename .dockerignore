@@ -1,0 +1,48 @@
+# Ignore development files and directories
+.env
+*.pyc
+__pycache__
+
+# Ignore database files
+db.sqlite3
+
+# Ignore static files
+staticfiles
+
+# Ignore media files
+media
+
+# Ignore log files
+logs
+
+# Ignore virtual environment
+venv
+
+# Ignore Docker-related files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+#git
+.git
+.gitignore
+
+#Docker
+.docker
+
+#python
+app/__pycache__
+app/*/__pycache__
+app/*/*/__pycache__
+app/*/*/*/__pycache__
+.env
+.venv
+venv
+__pycache__
+
+#IDE    
+.vscode
+.idea
+*.iml
+*.ipynb
+*.pyc
